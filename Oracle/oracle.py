@@ -1,6 +1,7 @@
 import os
 import cx_Oracle
 from dotenv import load_dotenv
+from flask import Flask
 
 def oracle_connection():
     username = os.getenv('ORACLE_USER')
